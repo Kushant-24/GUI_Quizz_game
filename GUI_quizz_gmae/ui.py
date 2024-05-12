@@ -37,8 +37,8 @@ class QuizInterface:
             )
         
 
-        FalseImage = PhotoImage(file="C:\\HardCore_Projects(py) - 3\\GUI_quizz_gmae\\Images\\wrong.png")
-        TrueImage = PhotoImage(file="C:\\HardCore_Projects(py) - 3\\GUI_quizz_gmae\\Images\\right.png")
+        FalseImage = PhotoImage(file="GUI_quizz_gmae\\Images\\wrong.png")
+        TrueImage = PhotoImage(file="GUI_quizz_gmae\\Images\\right.png")
 
         self.canvas.grid(row=1,column=0,columnspan=2,pady=30)
         self.FalseButton = Button(image=FalseImage,
